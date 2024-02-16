@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+:root {
+  --primary-color: #FFBE0B;  /* Amber */
+  --secondary-color: #FB5607; /* Orange */
+  --accent-color1: #FF006E;  /* Rose */
+  --accent-color2: #8338EC;  /* Blue-violet */
+  --heading-font: "Roboto Slab", serif; /* Define heading font */
+  --paragraph-font: "Open Sans", sans-serif; /* Define paragraph or default font */
+ }
+
+* {
+  padding : 0;
+  margin : 0;
+  box-sizing : border-box;
+  }
+
+  header {
+    display : grid;
+    margin : auto;
+    grid-template-columns : 1fr 2fr;
+    align-items : center;
+    max-width : 1000px;
+    border : var(--accent-color2) solid 1px;
+    background : #3a86ff;
+    }
+
+.hero {
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    font-style: normal;
+    position : relative;
+}
+.hero img {
+    /*position : relative; */
+    display : block;
+    width : 100%;
+    height : auto;
+}
+
+nav {
+    background-color: var(--primary-color);
+    font-size: 1rem;
+    display: block;
+    float: right;
+    padding: 3px;
+    border: 1px solid var(--accent-color2);
+    margin: 5px;
+    display : flex;
+    justify-items : right;
+    justify-content : space-around;
+    cursor : pointer;
+    transition : 0.5s;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--accent-color2);
+  padding:  5px 5px;
+  font-size : 20px;
+}
+
+h1 {
+  display: block;
+  max-width: 700px;
+  margin: 1px;
+  border: 1px dotted var(--accent-color1);
+  padding: 50px 20px 10px 30px ;
+  margin-bottom: 60px;
+  left: 25%;
+}
+
+.boss {
+    position : absolute;
+    font-family: var(--paragraph-font);
+    color: var(--accent-color2);
+    top: 5rem;
+    left: 15%; 
+    text-align: center;
+    z-index: 1;
+    box-sizing:border-box;
+    display: block;
+    background-color: var(--primary-color);
+    padding:  10px;
+}
+
+h2 {
+    font-family: var(--paragraph-font);
+    color: var(--accent-color2);
+}
+
+article{
+    margin-top: 100px;
+    position: absolute;
+}
+
+article img {
+    float: right;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+footer {
+    position : fixed ;
+    bottom: 0;
+}

@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
-/* Move the @import rule to the beginning, before any other rules */
+/* Move the @import rule to the beginning, before any other rules 
 @import url('/fonts/CircularXXWeb-Book.woff2');
-@import url('/fonts/CircularXXWeb-Bold.woff2');
+@import url('/fonts/CircularXXWeb-Bold.woff2'); */ 
 
 :root {
   --primary-color: #FFBE0B;  /* Amber */
