@@ -12,6 +12,11 @@ aside {
     font-size: 16px;
 }
 
+aside img {
+    height: auto;
+    width: 200 ;
+}
+
 main img {
     width: 150px;
     height: auto;
